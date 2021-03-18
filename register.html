@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register-Form</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div>
+        <header>
+            <h1 style="display: inline-block;">Register Here</h1>
+            <a href="login.html" class="nav-link">Log-In Here</a>
+            <a href="register.html" class="nav-link">Register Here</a>
+            <a href="blog.html" class="nav-link">My Blog</a>
+            <a href="index.html" class="nav-link">Home</a>
+        </header>
+    </div>
+    <hr class="hr-width">
+
+    <div id="reg-form">
+        <form action="" method="">
+            <div>
+                <label for="first-name">First Name:</label>
+                <input type="text" name="first-name" required>
+
+                <label for="last-name">Last Name:</label>
+                <input type="text" name="last-name" required>
+            </div><br>
+
+            <div>
+                <input type="radio" name="gender" value="choice-1">
+                <label for="gender">Male</label>
+
+                <input type="radio" name="gender" value="choice-2">
+                <label for="gender">Female</label>
+
+                <input type="radio" name="gender" value="choice-3">
+                <label for="gender">Others</label>
+            </div><br>
+
+            <div>
+                <label for="email">Email:</label>
+                <input type="email" name="email" placeholder="xyz@example.com" required>
+            </div><br>
+
+            <div>
+                <label for="passwords">Passwords:</label>
+                <input type="password" name="passwords" required>
+            </div><br>
+
+            <div>
+                <label for="dob">Date of Birth:</label>
+                <input type="date" name="dob">
+            </div><br>
+
+            <div>
+                <label for="phone">Phone Number:</label>
+                <input type="tel" name="phone" required>
+            </div><br>
+
+            <div>
+                <input type="submit" name="submit">
+            </div>
+        </form>
+    </div>
+    <hr class="width">
+
+    <div>
+        <footer style="text-align: center;">
+            <small>Copyright &copy; 2021</small>
+        </footer>
+    </div>
+</body>
+
+</html>
