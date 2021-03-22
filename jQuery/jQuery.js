@@ -56,3 +56,9 @@ $("#toggle").click(function() {
     $("#para2").toggle();
 });
 //fadeOut
+$("#fadeOut").click(function() {
+    $("#heading1").fadeOut("slow");
+});
+$("#fadeIn").click(function() {
+    $("#heading1").fadeIn("slow");
+});
