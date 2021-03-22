@@ -57,8 +57,24 @@ $("#toggle").click(function() {
 });
 //fadeOut
 $("#fadeOut").click(function() {
-    $("#heading1").fadeOut("slow");
+    $("#heading1").fadeOut();
 });
 $("#fadeIn").click(function() {
-    $("#heading1").fadeIn("slow");
+    $("#heading1").fadeIn();
+});
+
+//slide effect
+$("#s-up").click(function() {
+    $(".slide").slideUp("slow");
+});
+$("#s-down").click(function() {
+    $(".slide").slideDown("slow");
+});
+$("#s-toggle").click(function() {
+    $(".slide").slideToggle("slow");
+});
+
+//drag effect
+$(function() {
+    $("#draggable").draggable();
 });
